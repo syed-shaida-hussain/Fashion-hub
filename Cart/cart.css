@@ -1,0 +1,12 @@
+:root {
+    --cart-bg-color: #f3f4f6;
+}
+
+body {
+    background-color: var(--cart-bg-color);
+}
+
+.product-main-container {
+    display: flex;
+    margin-left: 10rem;
+}
