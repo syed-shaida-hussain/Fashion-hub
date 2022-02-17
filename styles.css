@@ -37,7 +37,7 @@ body {
     justify-content: flex-end;
 }
 
-.nav-link {
+.nav-pill {
     text-decoration: none;
     color: var(--black-color);
     font-size: 1.1rem;
@@ -100,11 +100,11 @@ body {
     font-weight: 550;
 }
 
-.navbar-left .nav-link:hover {
+.navbar-left .nav-pill:hover {
     color: var(--primary-color);
     font-weight: 600;
 }
 
-.navbar-right .nav-link:hover {
+.navbar-right .nav-pill:hover {
     font-size: 2.5rem;
 }
