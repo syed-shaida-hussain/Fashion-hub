@@ -14,3 +14,7 @@ body {
 .bold{
     font-weight: 600;
 }
+
+.heading-text{
+    margin: 2rem;
+}
