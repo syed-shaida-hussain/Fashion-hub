@@ -10,3 +10,7 @@ body {
     display: flex;
     margin-left: 10rem;
 }
+
+.bold{
+    font-weight: 600;
+}
