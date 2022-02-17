@@ -72,7 +72,7 @@ body {
 
 .product-suggestion {
     width: 45rem;
-    height: 10rem;
+    height: 11rem;
     background-color: var(--bg-color);
     margin: 0.5rem;
     cursor: pointer;
@@ -84,10 +84,6 @@ body {
 
 .suggestion-text {
     margin-left: 1rem;
-}
-
-.product-image {
-    background: none;
 }
 
 .product-suggestion-image {
