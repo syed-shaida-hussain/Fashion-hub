@@ -1,5 +1,5 @@
 :root {
-    --body-bg-color: rgb(243, 243, 243);
+    --body-bg-color: #F3F3F3;
     --page-bg-color: white;
     --gray-color: gray;
 }
@@ -77,7 +77,7 @@ input[type="range"] {
 input[type="range"]::-webkit-slider-runnable-track {
     height: 4px;
     min-width: 10rem;
-    background: black;
+    background: var(--gray-color);
     border: none;
     border-radius: 3px;
 }
@@ -85,10 +85,10 @@ input[type="range"]::-webkit-slider-runnable-track {
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     border: none;
-    height: 16px;
-    width: 16px;
+    height: 1rem;
+    width: 1rem;
     border-radius: 50%;
-    background: rgb(83, 80, 80);
+    background: var(--gray-color);
     margin-top: -6px;
 }
 
