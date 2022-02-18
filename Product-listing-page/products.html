@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://garnish-ui.netlify.app/styles.css">
+    <link rel="stylesheet" href="/Product-listing-page/products.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header-nav margin-bottom flex">
+        <ul class="navigation navbar-left flex-page">
+            <li><a href="/index.html" class="nav-pill ">Home</a></li>
+            <li><a href="/Product-listing-page/products.html" class="nav-pill  active-link">Products</a></li>
+        </ul>
+
+        <input class="search-bar" type="text" placeholder="Search" />
+
+        <ul class="navigation navbar-right flex-page">
+            <li>
+                <a href="/Wishlist/wishlist.html" class="nav-pill"><i class="material-icons"> favorite_border</i></a>
+            </li>
+
+            <li>
+                <a href="/Authentication/login.html" class="nav-pill"><i class="material-icons"> account_circle</i></a>
+            </li>
+
+            <li>
+                <a href="/Cart/cart.html" class="nav-pill"><i class="material-icons"> add_shopping_cart</i></a>
+            </li>
+        </ul>
+    </header>
+    
+    <section class="page-container flex-page">
+        <aside class="filters">
+            <div class="filter flex ">
+                <p class="filter-heading margin-left margin-bottom margin-top">Filters</p>
+                <a class="clear-link margin-right margin-bottom margin-top" href="#">Clear</a>
+            </div>
+            <div class="filter">
+                <p class="price-text margin-bottom margin-left">Price</p>
+                <div class="price-range margin-left">
+                    <span class="margin-2-right">50</span>
+                    <span class="margin-left">200</span>
+                    <span class="margin-2-left">500</span>
+                </div>
+                <input class="range-input margin-bottom margin-left" type="range" />
+            </div>
+            <div class="filter">
+                <p class="filter-heading-text margin-left">Category</p>
+                <div class="flex">
+                    <input class="margin-left margin-top margin-bottom" id="category-checkbox1" name="category-checkbox"
+                        type="checkbox" />
+                    <label class="input-label1 margin-bottom margin-top" for="category-checkbox1">
+                        Men Clothing
+                    </label>
+                </div>
+                <div class="flex">
+                    <input class="margin-left margin-bottom" id="category-checkbox2" name="category-checkbox"
+                        type="checkbox" />
+                    <label class="input-label2 margin-right margin-bottom" for="category-checkbox2">Women
+                        clothing</label>
+                </div>
+            </div>
+            </div>
+            <p class="filter-heading-text margin-left">Rating</p>
+            <div class="rating margin-top">
+                <input id="rating1" class="margin-left" name="rating" type="radio" />
+                <label for="rating1">4 stars and above</label>
+            </div>
+            <div class="rating">
+                <input id="rating2" class="margin-left" name="rating" type="radio" />
+                <label for="rating2">3 stars and above</label>
+            </div>
+            <div class="rating">
+                <input id="rating3" class="margin-left" name="rating" type="radio" />
+                <label for="rating3">2 stars and above</label>
+            </div>
+            <div class="rating">
+                <input id="rating4" class="margin-left" name="rating" type="radio" />
+                <label for="rating4">1 stars and above</label>
+            </div>
+            <p class="filter-heading-text margin-left">Sort by</p>
+            <div class="rating">
+                <input id="rating1" class="margin-left" name="rating" type="radio" />
+                <label for="rating1">Price-Low to High</label>
+            </div>
+            <div class="rating">
+                <input id="rating2" class="margin-left" name="rating" type="radio" />
+                <label for="rating2">Price-High to Low</label>
+            </div>
+        </aside>
+        <main class="products">
+       
+            <div class="wishlist-product-container">
+                <img class="product-image" src="/images/product-image.svg" alt="" />
+
+                <i class="material-icons like-icon black"> favorite_border</i>
+
+                <div class="wishlist-product-info">
+                    <p class="wishlist-info-text margin-top-bottom font-size-small">
+                        Men premium jacket
+                    </p>
+                    <p class="price-text margin-top-bottom">Rs 2000</p>
+                </div>
+                <button class="add-to-cart-btn primary-bg">Go to cart</button>
+            </div>
+            <div class="wishlist-product-container">
+                <img class="product-image" src="/images/product-image.svg" alt="" />
+
+                <i class="material-icons like-icon black"> favorite_border</i>
+
+                <div class="wishlist-product-info">
+                    <p class="wishlist-info-text margin-top-bottom font-size-small">
+                        Men premium jacket
+                    </p>
+                    <p class="price-text margin-top-bottom">Rs 2000</p>
+                </div>
+                <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+            <div class="wishlist-product-container">
+                <img class="product-image" src="/images/product-image.svg" alt="" />
+
+                <i class="material-icons like-icon black"> favorite_border</i>
+
+                <div class="wishlist-product-info">
+                    <p class="wishlist-info-text margin-top-bottom font-size-small">
+                        Men premium jacket
+                    </p>
+                    <p class="price-text margin-top-bottom">Rs 2000</p>
+                </div>
+                <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+            <div class="wishlist-product-container">
+                <img class="product-image" src="/images/product-image.svg" alt="" />
+
+                <i class="material-icons like-icon black"> favorite_border</i>
+
+                <div class="wishlist-product-info">
+                    <p class="wishlist-info-text margin-top-bottom font-size-small">
+                        Men premium jacket
+                    </p>
+                    <p class="price-text margin-top-bottom">Rs 2000</p>
+                </div>
+                <button class="add-to-cart-btn primary-bg">Go to cart</button>
+            </div>
+            <div class="wishlist-product-container">
+                <img class="product-image" src="/images/product-image.svg" alt="" />
+
+                <i class="material-icons like-icon black"> favorite_border</i>
+
+                <div class="wishlist-product-info">
+                    <p class="wishlist-info-text margin-top-bottom font-size-small">
+                        Men premium jacket
+                    </p>
+                    <p class="price-text margin-top-bottom">Rs 2000</p>
+                </div>
+                <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+            <div class="wishlist-product-container">
+                <img class="product-image" src="/images/product-image.svg" alt="" />
+
+                <i class="material-icons like-icon black"> favorite_border</i>
+
+                <div class="wishlist-product-info">
+                    <p class="wishlist-info-text margin-top-bottom font-size-small">
+                        Men premium jacket
+                    </p>
+                    <p class="price-text margin-top-bottom">Rs 2000</p>
+                </div>
+                <button class="add-to-cart-btn primary-bg">Go to cart</button>
+            </div>
+            <div class="wishlist-product-container">
+                <img class="product-image" src="/images/product-image.svg" alt="" />
+
+                <i class="material-icons like-icon black"> favorite_border</i>
+
+                <div class="wishlist-product-info">
+                    <p class="wishlist-info-text margin-top-bottom font-size-small">
+                        Men premium jacket
+                    </p>
+                    <p class="price-text margin-top-bottom">Rs 2000</p>
+                </div>
+                <button class="add-to-cart-btn primary-bg">Go to cart</button>
+            </div>
+            <div class="wishlist-product-container">
+                <img class="product-image" src="/images/product-image.svg" alt="" />
+
+                <i class="material-icons like-icon black"> favorite_border</i>
+
+                <div class="wishlist-product-info">
+                    <p class="wishlist-info-text margin-top-bottom font-size-small">
+                        Men premium jacket
+                    </p>
+                    <p class="price-text margin-top-bottom">Rs 2000</p>
+                </div>
+                <button class="add-to-cart-btn ">Add to cart</button>
+            </div>
+            <div class="wishlist-product-container">
+                <img class="product-image" src="/images/product-image.svg" alt="" />
+
+                <i class="material-icons like-icon black"> favorite_border</i>
+
+                <div class="wishlist-product-info">
+                    <p class="wishlist-info-text margin-top-bottom font-size-small">
+                        Men premium jacket
+                    </p>
+                    <p class="price-text margin-top-bottom">Rs 2000</p>
+                </div>
+                <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+            <div class="wishlist-product-container">
+                <img class="product-image" src="/images/product-image.svg" alt="" />
+
+                <i class="material-icons like-icon black"> favorite_border</i>
+
+                <div class="wishlist-product-info">
+                    <p class="wishlist-info-text margin-top-bottom font-size-small">
+                        Men premium jacket
+                    </p>
+                    <p class="price-text margin-top-bottom">Rs 2000</p>
+                </div>
+                <button class="add-to-cart-btn primary-bg">Go to cart</button>
+            </div>
+            <div class="wishlist-product-container">
+                <img class="product-image" src="/images/product-image.svg" alt="" />
+
+                <i class="material-icons like-icon black"> favorite_border</i>
+
+                <div class="wishlist-product-info">
+                    <p class="wishlist-info-text margin-top-bottom font-size-small">
+                        Men premium jacket
+                    </p>
+                    <p class="price-text margin-top-bottom">Rs 2000</p>
+                </div>
+                <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+            <div class="wishlist-product-container">
+                <img class="product-image" src="/images/product-image.svg" alt="" />
+
+                <i class="material-icons like-icon black"> favorite_border</i>
+
+                <div class="wishlist-product-info">
+                    <p class="wishlist-info-text margin-top-bottom font-size-small">
+                        Men premium jacket
+                    </p>
+                    <p class="price-text margin-top-bottom">Rs 2000</p>
+                </div>
+                <button class="add-to-cart-btn primary-bg">Go to cart</button>
+            </div>
+
+        </main>
+    </section>
+
+</body>
+
+</html>
