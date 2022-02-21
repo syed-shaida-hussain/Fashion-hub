@@ -14,7 +14,6 @@
 <body>
     <header class="header-nav flex">
         <ul class="navigation navbar-left flex">
-
             <li><a href="/index.html" class="nav-pill active-link">Home</a></li>
             <li><a href="/Product-listing-page/products.html" class="nav-pill">Products</a></li>
         </ul>
@@ -23,15 +22,22 @@
 
         <ul class="navigation navbar-right flex">
             <li>
-                <a href="/Wishlist/wishlist.html" class="nav-pill"><i class="material-icons"> favorite_border</i></a>
+                <div class="badge-on-cart wishlist-icon">
+                    <a href="/Wishlist/wishlist.html" class="nav-pill"><i class="material-icons"> favorite_border</i></a>
+                    <p class="icon-badge aligned-icon">5</p>
+                </div>   
             </li>
 
             <li>
-                <a href="/Authentication/login.html" class="nav-pill"><i class="material-icons"> account_circle</i></a>
+                <a href="/Authentication/login.html" class="nav-pill account-icon"><i class="material-icons"> account_circle</i></a>
             </li>
 
             <li>
-                <a href="/Cart/cart.html" class="nav-pill"><i class="material-icons"> add_shopping_cart</i></a>
+                <div class="badge-on-cart cart-icon">
+                    <a href="/Cart/cart.html" class="nav-pill"><i class="material-icons"> add_shopping_cart</i></a>
+                    <p class="icon-badge aligned-icon">1</p>
+                </div>
+                
             </li>
 
         </ul>

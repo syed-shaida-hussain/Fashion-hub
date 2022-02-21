@@ -35,6 +35,7 @@ body {
 
 .navbar-right {
     justify-content: flex-end;
+    margin-right: 2rem;
 }
 
 .nav-pill {
@@ -42,6 +43,15 @@ body {
     color: var(--black-color);
     font-size: 1.1rem;
     margin-right: 1rem;
+}
+
+.account-icon{
+    margin-left:1rem;
+    margin-right: 2rem;
+}
+
+.cart-icon{
+    margin-left: 1rem;
 }
 
 .search-bar {
@@ -103,4 +113,10 @@ body {
 
 .navbar-right .nav-pill:hover {
     font-size: 1.5rem;
+}
+
+.aligned-icon{
+    right: 1.8rem;
+    bottom: 1.8rem;
+    display: inline;
 }
