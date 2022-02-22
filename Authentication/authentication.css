@@ -46,6 +46,10 @@ body {
     padding-left: 5px;
 }
 
+.logout-btn-container{
+    text-align: right;
+}
+
 .password-info {
     align-items: center;
     margin-bottom: 1rem;
